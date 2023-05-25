@@ -8,16 +8,11 @@ int main(void)
 {
 	int letter;
 
-	for (letter = 'a'; letter <= 'd'; letter++)
-		putchar(letter);
-	for (letter = 'f'; letter <= 'p'; letter++)
-                putchar(letter);
-        for (letter = 'r'; letter <= 'z'; letter++)
-                putchar(letter);
-        for (letter = 'A'; letter <= 'Z'; letter++)
-                putchar(letter);
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar('\n');
+        if (letter != 'q' && letter != 'e')
+                putchar(letter);
 	}
-		return (0);
+		putchar('\n');
+	return (0);
 }
