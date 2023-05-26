@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
 *c:cholds the value of a-z and A-Z 
 *isalpha:function to check for lower and upper character
