@@ -13,16 +13,21 @@
 int print_sign(int n)
 {
 
-	if n = 1
+	if (n > -1)
+	{
+		_putchar('-');
+		return (-1);
+	}
+	else if (n > 1)
+        {
+                _putchar('+');
+                return (1);
+        }
+	else 
+	{
+                _putchar("0");
+                return (0)
+        }
 
-		return (48);
-	
-	else if n < 1
-
-                return (152);
-
-	else
-
-		return (43);
 
 }
