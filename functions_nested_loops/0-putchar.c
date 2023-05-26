@@ -6,14 +6,16 @@
  */
 int main(void)
 {
-        char a[] = "_putchar";
-        int s = sizeof(a);
-        int b;
+	char h[] = "_putchar";
+	int s = sizeof(h);
+	int i;
 
-        for (b = 0; b < s; b++)
-        {
-                _putchar(a[b]);
-        }
-        _putchar('\n');
-        return (0);
+	for (i = 0; i < s; i++)
+	{
+		_putchar(h[i]);
+
+	}
+
+	_putchar('\n');
+	return (0);
 }
