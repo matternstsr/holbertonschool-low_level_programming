@@ -6,7 +6,7 @@
 int _islower(int c)
 
 {
-	int lowercase = "c";
+	char lowercase = "c";
 
 	if islower(lowercase)
 		
