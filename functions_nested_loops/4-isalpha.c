@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *c:cholds the value of a-z and A-Z
- *isalpha:function to check for lower and upper character
+ *'c':cholds the value of a-z and A-Z
+ *_isalpha:function to check for lower and upper character
  *Return: 1 if c is lower or upper, else 0
  */
 
