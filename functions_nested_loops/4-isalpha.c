@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- *@c - holds the value of a-z and A-Z
- *_isalpha - function to check for lower and upper character
- *Return: 1 if c is lower or upper, else 0
+ * _isalpha - Checks if a character is alphabetic.
+ * @c: Variable Input.
+ *
+ * Return: 1 if character letter and lowercase or uppercase, 0 otherwise
  */
 
 int _isalpha(int c)
