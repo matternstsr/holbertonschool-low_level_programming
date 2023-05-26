@@ -1,10 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - main function
- * Return: Return 0
+ * main - main function .
+ *
+ * Return: 0
  */
 int main(void)
 {
-printf("_putchar\n");
+	char a[] = "_putchar";
+	int s = sizeof(a);
+	int i;
+	
+	for (i = 0; i < s; i++)
+	{
+		_putchar(a[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
