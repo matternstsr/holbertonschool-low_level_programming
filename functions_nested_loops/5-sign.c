@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _isalpha - Checks if a character is alphabetic.
+ * print_sign - Checks if a character is -1,1,0
  * @n: Variable Input.
  *
  * Return: Returns -1,1,0,+,-,0
