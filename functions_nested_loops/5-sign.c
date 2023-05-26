@@ -5,7 +5,7 @@
  * _isalpha - Checks if a character is alphabetic.
  * @n: Variable Input.
  *
- * Return: Returns -1,1,0,+,-,0 
+ * Return: Returns -1,1,0,+,-,0
  */
 
 int print_sign(int n)
