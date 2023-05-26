@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*_isalpha - function to check for lower and upper character
+*int_isalpha - function to check for lower and upper character
 *Return: 1 if c is lower or upper, else 0
 */
 
