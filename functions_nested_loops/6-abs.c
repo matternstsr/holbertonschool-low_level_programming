@@ -12,7 +12,8 @@ int _abs(int y)
 {
 	int x = -4;
 	y = _abs(x);
+	return (_abs_val);
 	{
-	printf("The absolute value of x is %d.\n", y);
+	return (y);
 	}
 }
