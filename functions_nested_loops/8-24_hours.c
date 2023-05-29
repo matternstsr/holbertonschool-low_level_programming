@@ -5,6 +5,7 @@
  *
  * Return: Always 0.
  */
+
 void jack_bauer(void)
 {
 	int milliseconds = 0;
@@ -12,25 +13,23 @@ void jack_bauer(void)
 	int minutes = 0;
 	int hours = 0;
 
-	for (hours = 0; hours <= 2; hours++)
+	for (milliseconds = 0; milliseconds <= 2; milliseconds++)
 	{
-		for (minutes = 0; minutes <= 9; minutes++)
+		for (seconds = 0; seconds <= 9; seconds++)
 		{
-			if ((hours <= 1 && minutes <= 9) || (hours <= 2 && minutes <= 3))
+			if ((milliseconds <= 1 && seconds <= 9) || (milliseconds <= 2 && seconds <= 3))
 			{
-				for (seconds = 0; seconds <= 5; seconds++)
+				for (minutes = 0; minutes <= 5; minutes++)
 				{
-					for (milliseconds = 0; milliseconds <= 9; milliseconds++)
+					for (hours = 0; hours <= 9; hours++)
 					{
-						_putchar(hours + '0');
-						_putchar(minutes + '0');
-						_putchar(58);
-						_putchar(seconds + '0');
 						_putchar(milliseconds + '0');
+						_putchar(seconds + '0');
+						_putchar(58);
+						_putchar(minutes + '0');
+						_putchar(hours + '0');
 						_putchar('\n');
 					}
 				}
 			}
 		}
-	}
-}
