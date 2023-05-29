@@ -8,7 +8,7 @@
   * Return: Absolute value of number or zero
   */
 
-int _abs(int n)
+int _abs(int y)
 {
 	int x = -4, y;
 	y = _abs(x);
