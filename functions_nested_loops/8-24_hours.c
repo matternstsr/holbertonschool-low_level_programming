@@ -17,7 +17,8 @@ void jack_bauer(void)
 	{
 		for (seconds = 0; seconds <= 9; seconds++)
 		{
-			if ((milliseconds <= 1 && seconds <= 9) || (milliseconds <= 2 && seconds <= 3))
+			if ((milliseconds <= 1 && seconds <= 9) ||
+				       	(milliseconds <= 2 && seconds <= 3))
 			{
 				for (minutes = 0; minutes <= 5; minutes++)
 				{
