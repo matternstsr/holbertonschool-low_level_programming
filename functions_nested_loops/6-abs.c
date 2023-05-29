@@ -8,9 +8,9 @@
   * Return: Absolute value of number or zero
   */
 
-int _abs(int x) 
+int _abs(int y) 
 {
-	int x = -4, y;
+	int x = -4;
 	y = _abs(x);
 	{
 	printf("The absolute value of x is %d.\n", y);
