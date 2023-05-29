@@ -8,12 +8,10 @@
   * Return: Absolute value of number or zero
   */
 
-int _abs(int y) 
+int _abs(int n)
 {
-	int x = -4;
-	y = _abs(x);
-	return (_abs);
-	{
-	return (0);
-	}
+    if (n < 0)
+        return (-n);
+    else
+        return (n);
 }
