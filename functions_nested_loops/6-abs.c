@@ -12,7 +12,7 @@ int _abs(int y)
 {
 	int x = -4;
 	y = _abs(x);
-	return (_abs_val);
+	return (_abs);
 	{
 	return (y);
 	}
