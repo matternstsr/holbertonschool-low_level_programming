@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- * jack_bauer - Prints every minute of the day of Jack Bauer
+ * @jack_bauer - Prints every minute of the day of Jack Bauer
  * Return: Always 0.
  */
 
