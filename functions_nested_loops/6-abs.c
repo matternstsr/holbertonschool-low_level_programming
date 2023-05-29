@@ -9,10 +9,10 @@
   */
 
 int _abs(int)
-
-int x = -4, y;
- 
-    y = _abs(x);
- 
-    printf("The absolute value of x is %d.\n", y);
-
+{
+	int x = -4, y;
+	y = _abs(x);
+	{
+	printf("The absolute value of x is %d.\n", y);
+	}
+}
