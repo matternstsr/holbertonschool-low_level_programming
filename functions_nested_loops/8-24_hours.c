@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- *
+ * jack_bauer - used to printout the time left of the day
  * Return: Always 0.
  */
 
