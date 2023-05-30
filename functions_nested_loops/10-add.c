@@ -7,8 +7,6 @@
   * Return: empty output
   */
 int add(a, b)
-	int a;
-	int b;
 {
 	int sum = a + b;
 	{
