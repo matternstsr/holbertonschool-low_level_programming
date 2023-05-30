@@ -6,7 +6,7 @@
   * @b: perameter2
   * Return: empty output
   */
-int add(a, b)
+int add(int a, int b)
 {
 	int sum = a + b;
 	{
