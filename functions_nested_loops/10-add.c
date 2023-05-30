@@ -6,7 +6,7 @@
   * b - perameter2
   * Return: empty output
   */
-int add(int, int)
+int add(a, b)
 	int a;
 	int b;
 {
