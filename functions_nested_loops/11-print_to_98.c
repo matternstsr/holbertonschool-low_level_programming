@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
   * print_to_98 - Prints until it reaches 98
   *
