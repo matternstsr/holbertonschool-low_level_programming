@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
   * print_to_98 - Prints until it reaches 98
-  * @n - value to be incrimented up or down
+  * n - value to be incrimented up or down
   * Return: empty output
   */
 
