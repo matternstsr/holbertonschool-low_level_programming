@@ -10,6 +10,7 @@ void more_numbers(void)
 {
 	char c;
 	int r;
+
 	c = '0';
 	r = '1';
 
