@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - checks if the value 0 and prints 1-9 followed by new line
+ * print_most_numbers - checks if the value 0 and prints 1-9 followed by new line
  * Return: not return
  */
 
