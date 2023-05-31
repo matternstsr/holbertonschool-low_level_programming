@@ -18,6 +18,9 @@ void more_numbers(void);
 		_putchar(c);
 		c++;
 		}
-		if (c = '14' ; r++;)
+		if (c = '14') 
+		{
+		r++;
+		}
 	_putchar('\n');
 }
