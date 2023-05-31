@@ -6,7 +6,7 @@
  * Return: prints 1 if uppper and 0 if loower
  */
 
-void int _isupper(int c)
+int _isupper(int c)
 {
 if (c > a && c < z)
 	{
