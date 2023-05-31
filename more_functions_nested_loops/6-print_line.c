@@ -12,14 +12,12 @@ void print_line(int n)
 
 int rounds;
 
-if (rounds <= n) && (rounds > 0)
-	{
-	_putchar(95)
-	}
-	_putchar('ln')
+(rounds = 1);
 
-else
+if ((rounds <= n) && (rounds > 0))
 	{
-	_putchar('\n'
+		putchar(95);
+		_rounds++;
 	}
+_putchar('\n');
 }
