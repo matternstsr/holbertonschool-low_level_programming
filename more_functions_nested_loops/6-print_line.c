@@ -16,8 +16,8 @@ int rounds;
 
 if ((rounds <= n) && (rounds > 0))
 	{
-		putchar(95);
-		_rounds++;
+		_putchar(95);
+		rounds++;
 	}
 _putchar('\n');
 }
