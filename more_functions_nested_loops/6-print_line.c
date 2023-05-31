@@ -14,7 +14,7 @@ int rounds;
 
 (rounds = 1);
 
-if ((rounds <= n) && (rounds > 0))
+while ((rounds <= n) && (rounds > 0))
 	{
 		_putchar(95);
 		rounds++;
