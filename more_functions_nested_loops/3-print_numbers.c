@@ -18,6 +18,6 @@ void print_numbers(void)
 
 	else
 		{
-		_putchar('\n')
+		_putchar('\n');
 		}
 }
