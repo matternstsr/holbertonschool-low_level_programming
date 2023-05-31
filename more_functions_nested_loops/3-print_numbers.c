@@ -12,12 +12,12 @@ void print_numbers(void)
 	(c = 48);
 	while (c <= 57)
 		{
-		putchar(c);
+		_putchar(c);
 		c++;
 		}
 
 	else
 		{
-		putchar('\n')
+		_putchar('\n')
 		}
 }
