@@ -14,7 +14,6 @@ void print_triangle(int size)
 	int fillin;
 	int total;
 	int incr;
-	int size;
 	
 	if (size <= 0)
 		_putchar('\n');
