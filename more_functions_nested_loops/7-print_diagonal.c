@@ -11,6 +11,7 @@
 void print_diagonal(int n)
 {
 (n = 100);
+
 int bslashes;
 int spaces;
 
