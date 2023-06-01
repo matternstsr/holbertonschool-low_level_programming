@@ -2,9 +2,7 @@
 
 /**
  * print_square - printing # - shape of square base on size.
- * @shape: routine for size per lines.
- * @xs: Amount of #'s printed per line.
- *
+ * @size: used to determin the sixe of the square
  * Return: void
  */
 
