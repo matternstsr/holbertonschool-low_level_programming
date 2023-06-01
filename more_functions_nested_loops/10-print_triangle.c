@@ -15,27 +15,26 @@ void print_triangle(int size)
 	int total;
 	int incr;
 	int size;
-
-	(size = 6);
+	
 	if (size <= 0)
-		putchar('\n');
+		_putchar('\n');
 	(total = size -1);
 	(incr = 1);
 	for (spaces = 0; spaces < size; spaces++)
 	{
 		for (fillin = 0; fillin < total; fillin++)
 		{
-			putchar(' ');
+			_putchar(' ');
 		}
-		putchar('#');
+		_putchar('#');
 		while (total + incr < n)
 		{
-			putchar('#');
+			_putchar('#');
 			fillin++;
 			incr++;
 		}
 		(incr = 1);
-		putchar('\n');
+		_putchar('\n');
 		total--;
 	}
 }
