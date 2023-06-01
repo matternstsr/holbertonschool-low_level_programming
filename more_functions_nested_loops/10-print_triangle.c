@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_triuangle - printing lines diagonal while filling in the back
- *
+ * print_triangle - printing lines diagonal while filling in the back
+ * @size: the size x & y of the triangle
  * Return: void
  */
 
