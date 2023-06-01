@@ -11,18 +11,17 @@
 void print_square(int size)
 
 {
-(size = 6);
 int shape;
 int xs;
 
 if (size <= 0)
-putchar('\n');
+_putchar('\n');
         for (shape = 0; shape < size; shape++)
 	{
 		for (xs = 0; xs < size; xs++)
 		{
-			putchar('x');
+			_putchar('x');
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
