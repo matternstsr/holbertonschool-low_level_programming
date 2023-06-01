@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_square - printing x - shape of square base on size.
+ * print_square - printing # - shape of square base on size.
  * @shape: routine for size per lines.
- * @xs: Amount of x's printed per line.
+ * @xs: Amount of #'s printed per line.
  *
  * Return: void
  */
@@ -20,7 +20,7 @@ _putchar('\n');
 	{
 		for (xs = 0; xs < size; xs++)
 		{
-			_putchar('x');
+			_putchar('#');
 		}
 		_putchar('\n');
 	}
