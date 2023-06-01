@@ -12,14 +12,14 @@ void print_diagonal(int n)
 {
 (n = 100);
 
-int bslashes;
+int slash;
 int spaces;
 
 if (n <= 0)
 _putchar('\n');
-	for (blsashes = 0; bslashes < n; bslashes++)
+	for (slash = 0; slash < n; slash++)
 	{
-		for (spaces = 0; spaces < bslashes; spaces++)
+		for (spaces = 0; spaces < slash; spaces++)
 		{
 			_putchar(' ');
 		}
