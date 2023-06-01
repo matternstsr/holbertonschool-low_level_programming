@@ -16,7 +16,7 @@ int xs;
 
 if (size <= 0)
 _putchar('\n');
-        for (shape = 0; shape < size; shape++)
+	for (shape = 0; shape < size; shape++)
 	{
 		for (xs = 0; xs < size; xs++)
 		{
