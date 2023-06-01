@@ -26,7 +26,7 @@ void print_triangle(int size)
 			_putchar(' ');
 		}
 		_putchar('#');
-		while (total + incr < n)
+		while (total + incr < size)
 		{
 			_putchar('#');
 			fillin++;
