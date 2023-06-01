@@ -12,4 +12,5 @@ int _strlen(char *s)
     int len = 0;
 
     while (s[len]) 
-	_putchar(len)        
+	_putchar(len);
+}    
