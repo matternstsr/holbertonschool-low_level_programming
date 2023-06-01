@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * rswap_int - swaps the two pntrs a and b
- * @c: the value holder of a pointer while changing values
+ * swap_int - swaps the two pntrs a and b
+ * @a: value 1 to be swapped
+ * @b: value 2 to be swapped
  * Return: void
  *
  */
