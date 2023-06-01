@@ -2,7 +2,6 @@
 
 /**
  * print_triuangle - printing lines diagonal while filling in the back
- * 
  *
  * Return: void
  */
@@ -14,10 +13,10 @@ void print_triangle(int size)
 	int fillin;
 	int total;
 	int incr;
-	
+
 	if (size <= 0)
 		_putchar('\n');
-	(total = size -1);
+	(total = size - 1);
 	(incr = 1);
 	for (spaces = 0; spaces < size; spaces++)
 	{
