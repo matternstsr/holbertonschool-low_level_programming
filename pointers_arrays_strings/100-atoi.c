@@ -9,9 +9,9 @@
 int _atoi(char *s)
 {
 	int msigns;
-	(msigns= 1);
 	int numbers = 0;
 
+	(msigns = 1);
 	do {
 		if (*s == '-')
 			msigns *= -1;
