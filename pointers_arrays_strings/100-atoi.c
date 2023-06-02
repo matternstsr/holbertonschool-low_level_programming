@@ -23,4 +23,5 @@ int _atoi(char *s)
 	
 	while (*s++);
 	return (numbers * msigns);
+
 }
