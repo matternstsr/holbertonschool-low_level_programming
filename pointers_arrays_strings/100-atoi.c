@@ -13,7 +13,7 @@ int _atoi(char *s)
 	int numbers = 0;
 	int signs = 1;
 	const char *p;
-	(*p = s);
+	(*p = *s);
 	if (*p == '-')
 	{
 		signs = -1;
