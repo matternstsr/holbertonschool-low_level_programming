@@ -9,7 +9,7 @@
 int _atoi(char *s)
 {
 	int msigns;
-	int numbers = 0;
+	unsigned int numbers = 0;
 
 	(msigns = 1);
 	do {
@@ -19,9 +19,6 @@ int _atoi(char *s)
 			numbers = (numbers * 10) + (*s - '0');
 		else if (numbers > 0)
 			break;
-	}
-	
-	while (*s++);
+	} while (*s++);
 	return (numbers * msigns);
-
 }
