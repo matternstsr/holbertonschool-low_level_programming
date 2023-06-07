@@ -4,7 +4,7 @@
  * _strcat - adds src string to the end dest string
  * @dest: Destination of the concatinated string
  * @src: Source
- *
+ * @n: value that stops the incrimentation of the destination pointer.
  * Return: pointer to dest string
  */
 
