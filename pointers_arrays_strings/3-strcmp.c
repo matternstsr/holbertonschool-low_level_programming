@@ -31,7 +31,7 @@ int _strcmp(char *s1, char *s2)
 		if (s1[currentpos] == s2[currentpos])
 		{
 			currentpos++;
-			continue;io
+			continue;
 		}
 		else
 		{
