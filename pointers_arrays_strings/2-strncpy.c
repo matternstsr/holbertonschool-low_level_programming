@@ -10,6 +10,7 @@
 
 char *_strncpy(char *dest, char *src, int n)
 
+{
 	int ptr = 0;
 	int ptr2 = 0;
 
