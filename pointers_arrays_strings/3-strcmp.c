@@ -1,29 +1,44 @@
 #include "main.h"
 
 /**
- * _strncpy - adds src string to the end dest string
- * @dest: Destination of the concatinated string
- * @src: Source
- * @n: value that stops the incrimentation of the destination pointer.
- * Return: pointer to dest string
- */
-
-char *_strncpy(char *dest, char *src, int n)
+  * _strcmp - Compares two provided strings
+  * @s1: string 1 values
+  * @s2: string 2 values
+  *
+  * Return: int value
+  */
+int _strcmp(char *s1, char *s2)
 {
-	int i;
-	(i = 0);
-	while (src[i] != '\0')
+	int str1i = 0, str2i = 0, currentpos = 0, retval = 0, lenshortrstr;
+	while (s1[str1i])
 	{
-		if (i < n)
+		str1i++;
+	}
+	while (s2[str2i])
+	{
+		str2i++;
+	}
+	if (str1i < str2i)
+	{
+		lss = str1i;
+	}
+	else
+	{
+		lss = str1i;
+	}
+	while (currentpos < lss)
+	{
+		if (str1i[currentpos] == str2i[currentpos])
 		{
-		dest[i] = src[i];
-		i++;
+			currentpos++;
+			continue
 		}
 		else
+		{
+			retval = str1i[currentpos] - str2i[currentpos];
 			break;
-
+		}
+		currentpos++;
 	}
-	for ( ; i < n; i++)
-                   dest[i] = '\0';
-	return (dest);
+	return (retval);
 }
