@@ -28,14 +28,14 @@ int _strcmp(char *s1, char *s2)
 	}
 	while (currentpos < lenshortrstr)
 	{
-		if (str1i[currentpos] == str2i[currentpos])
+		if (s1[currentpos] == s2[currentpos])
 		{
 			currentpos++;
-			continue
+			continue;io
 		}
 		else
 		{
-			retval = str1i[currentpos] - str2i[currentpos];
+			retval = s1[currentpos] - s2[currentpos];
 			break;
 		}
 		currentpos++;
