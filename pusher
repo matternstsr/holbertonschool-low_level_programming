@@ -1,24 +1,10 @@
-#!/bin/bash
+echo "Enter your commit message: "
+read message
+
+new_message=$(echo $message | tr ' ' '_')
+
 git add .
-echo "Commit Message:"
-read commit_message
-git commit -m "$commit_message"
-result=$?
-
-int i;
-(i = 0);
-str=$result
-while (str[i] != '\0')
-{
-    if (str[i] == ' ')
-    {
-        str[i] = '_';
-    }
-    i++;
-    $result = str
-
-    if [ $result -eq 0 ]; then
-        git push
-    else
-        echo "Commit Failed"
-}
+git commit -m "$new_message"
+if ! git push; then
+    echo "Sorry couldn't push that Commit Failed"
+fi
