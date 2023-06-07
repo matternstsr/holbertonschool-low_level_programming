@@ -5,19 +5,20 @@ read commit_message
 git commit -m "$commit_message"
 result=$?
 
-int i = 0;
-str = $result
-    while (str[i] != '\0')
+int i;
+(i = 0);
+str=$result
+while (str[i] != '\0')
+{
+    if (str[i] == ' ')
     {
-        if (str[i] == ' ')
-        {
-            str[i] = '_';
-        }
-        i++;
-    	$result = str
-	
-		if [ $result -eq 0 ]; then
-			git push
-		else
-		echo "Commit Failed"
-		fi
+        str[i] = '_';
+    }
+    i++;
+    $result = str
+
+    if [ $result -eq 0 ]; then
+        git push
+    else
+        echo "Commit Failed"
+}
