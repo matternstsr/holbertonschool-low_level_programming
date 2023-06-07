@@ -26,7 +26,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		lenshortrstr = str1i;
 	}
-	while (currentpos < lss)
+	while (currentpos < lenshortrst)
 	{
 		if (str1i[currentpos] == str2i[currentpos])
 		{
