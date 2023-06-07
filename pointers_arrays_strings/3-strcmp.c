@@ -11,6 +11,7 @@
 int _strcmp(char *s1, char *s2)
 {
 	int str1i = 0, str2i = 0, currentpos = 0, retval = 0, lenshortrstr;
+	
 	while (s1[str1i])
 	{
 		str1i++;
