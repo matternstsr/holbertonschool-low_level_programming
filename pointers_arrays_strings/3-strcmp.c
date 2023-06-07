@@ -20,11 +20,11 @@ int _strcmp(char *s1, char *s2)
 	}
 	if (str1i < str2i)
 	{
-		lss = str1i;
+		lenshortrstr = str1i;
 	}
 	else
 	{
-		lss = str1i;
+		lenshortrstr = str1i;
 	}
 	while (currentpos < lss)
 	{
