@@ -26,6 +26,6 @@ unsigned int _strspn(char *s, char *accept)
 				i3++;
 			break;
 		}
-		return (tempstr);
+		return (i3);
 	}
 }
