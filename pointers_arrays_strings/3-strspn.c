@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (i2 = 0; accept[i2] != '\0';i2++)
 		{
-			if (accept[i] == s[ia])
+			if (accept[i3] == s[i1])
 				tempstr[i3] = s[i1];
 			else
 				tempstr++
