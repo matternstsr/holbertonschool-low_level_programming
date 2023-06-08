@@ -11,25 +11,14 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i1;
-	unsigned int i2;
-	unsigned int i3 = 0;
-	unsigned char tempstr[100];
-	
-	for (i1 = 0; s[i1] != ' '; i1++)
+	unsigned int i = 0;
+	while (s[i] != '\0')
 	{
-		for (i2 = 0; accept[i2] != '\0'; i2++)
+		if (strchr(accept, s[i]) == NULL)
 		{
-			if (accept[i2] == s[i1])
-			{
-				i3++;
-				break;
-			}
+			return i;
 		}
-		if (accept[i2] == '\0')
-		{
-			break;
-		}
+		i++;
 	}
-	return i3;
+	return i;
 }
