@@ -24,7 +24,7 @@ unsigned int _strspn(char *s, char *accept)
 				tempstr[i3] = s[i1];
 			else
 				i3++;
-				break;
+			break;
 		}
 		return (tempstr);
 	}
