@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _strchr - searches string till it find a char def by c or null if not.
- * @s: sting of info
+ * @c: sting of info
  * @s: info that is selekcted for comparison.
  * Return: pointer to the first occuence of the letter c.
  *
