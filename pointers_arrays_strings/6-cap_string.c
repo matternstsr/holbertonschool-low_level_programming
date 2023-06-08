@@ -1,15 +1,21 @@
+/**
+ * cwa;// current character in the array of s.
+ * prechar;//character before the CWA
+ */
+
 #include "main.h"
 
 /**
  * cap_string - capitalize all words of a string that arent already
  * @s: string array
+ *
  * Return: string array
  */
 
 char *cap_string(char *s)
 {
-	int cwa;// current character in the array of s.
-	int prechar;//character before the CWA
+	int cwa;
+	int prechar;
 
 	for (cwa = 0; s[cwa] != '\0'; cwa++)
 	{
