@@ -1,8 +1,3 @@
-/**
- * cwa;// current character in the array of s.
- * prechar;//character before the CWA
- */
-
 #include "main.h"
 
 /**
@@ -10,6 +5,9 @@
  * @s: string array
  *
  * Return: string array
+ *
+ * cwa;// current character in the array of s.
+ * prechar;//character before the CWA
  */
 
 char *cap_string(char *s)
