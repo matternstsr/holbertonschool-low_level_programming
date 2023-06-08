@@ -17,7 +17,7 @@ char *_strchr(char *s, char c)
 		for (a = 0; s[a] != c; a++)
 		{
 			if (s[a] = c)
-			p = (s[a]);
+			*p = (s[a]);
 				return (p);
 		}
 }
