@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	int i1;
 	int i2;
 	int i3;
-	int tempstr;
+	char *tempstr;
 
 	for (i1 = 0; s[i1] != ' '; i1++)
 	{
@@ -23,7 +23,7 @@ unsigned int _strspn(char *s, char *accept)
 			if (accept[i3] == s[i1])
 				tempstr[i3] = s[i1];
 			else
-				tempstr++
+				tempstr++;
 		}
 	}
 }
