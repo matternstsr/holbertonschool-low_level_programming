@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _strchr - searches string till it find a char def by c or null if not.
  * @s: sting of info
