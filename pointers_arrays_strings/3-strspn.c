@@ -22,7 +22,6 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (accept[i2] == s[i1])
 			{
-				tempstr[i3] = s[i1];
 				i3++;
 				break;
 			}
