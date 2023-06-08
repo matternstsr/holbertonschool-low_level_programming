@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i1 = 0; s[i1] != ' '; i1++)
 	{
-		for (i2 = 0,i3 = 0; accept[i2] != '\0';i2++)
+		for (i2 = 0,i3 = 0,tempstr = 0; accept[i2] != '\0';i2++)
 		{
 			if (accept[i2] == s[i1])
 				tempstr[i3] = s[i1];
