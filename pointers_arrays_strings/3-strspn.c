@@ -16,7 +16,7 @@ unsigned int _strspn(char *s, char *accept)
 	int i3;
 	int tempstr;
 
-	for (i1 = 0; s[i1] != '32'; i1++)
+	for (i1 = 0; s[i1] != ' '; i1++)
 	{
 		for (i2 = 0; accept[i2] != '\0';i2++)
 		{
