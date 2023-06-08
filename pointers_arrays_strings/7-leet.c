@@ -2,12 +2,10 @@
 
 /**
  * leet - capitalize all words of a string that arent already
- * @s: string array
+ * @str: string provided
  *
  * Return: string array
  *
- * cwa;// current character in the array of s.
- * prechar;//character before the CWA
  */
 
 char *leet(char *str)
@@ -27,5 +25,5 @@ for (i = 0; str[i] != '\0'; i++)
 		}
 	}
 }
-return str;
+return (str);
 }
