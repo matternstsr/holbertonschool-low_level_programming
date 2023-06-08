@@ -11,9 +11,9 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i1;
-	int i2;
-	int i3;
+	unsigned int i1;
+	unsigned int i2;
+	unsigned int i3;
 	unsigned char *tempstr;
 
 	for (i1 = 0; s[i1] != ' '; i1++)
@@ -23,7 +23,8 @@ unsigned int _strspn(char *s, char *accept)
 			if (accept[i2] == s[i1])
 				tempstr[i3] = s[i1];
 			else
-				tempstr++;
+				i3++;
+				break;
 		}
 		return (tempstr);
 	}
