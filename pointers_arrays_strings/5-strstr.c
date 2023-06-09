@@ -14,27 +14,28 @@ char *_strstr(char *haystack, char *needle)
 	int i = 0;
 	int j = 0;
 	int g = 0;
-
+if (haystack[i] = '\0')
+	return (&haystack[g]);
 	while (haystack[i] != '\0')
 	{
 		while (needle[j] != '\0')
 		{
 			if (haystack[i] == needle[j])
+			{
 				j++;
-			if (haystack[i] == '\0')
-				return (&haystack[g]);
-			if (g == 0)
+				if (needle[i] == '\0')
+					return (&haystack[g]);
+				if (g == 0)
 				{
-					g++;
+					g = i;
 				}
+			}
 			else
 			{
 				g = 0;
 				j = 0;
 				break;
-			}
-								
-
+			}				
 		}
 		i++;
 	}
