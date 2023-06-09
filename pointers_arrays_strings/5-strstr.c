@@ -23,16 +23,20 @@ char *_strstr(char *haystack, char *needle)
 			{
 				j++;
 			}
-			if (g == 0)
+			if (haystack[i] == '\0')
 			{
-				g++;
+				return (haystack[g])
 			}
+			if (g == 0)
+				{
+					g++;
+				}
 			else
 			{
 				g = 0;
 				j = 0;
+				break;
 			}
-			break;
 								
 
 		}
