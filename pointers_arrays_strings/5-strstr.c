@@ -23,7 +23,7 @@ char *_strstr(char *haystack, char *needle)
 			{
 				j++;
 			}
-			if (g = 0)
+			if (g == 0)
 			{
 				g++;
 			}
