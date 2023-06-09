@@ -4,7 +4,7 @@
 /**
  * _strstr - searches string till it find a char def by c or null if not.
  * @haystack: initial string
- * @neddle: info that is selected for comparison.
+ * @needle: info that is selected for comparison.
  * Return: the chars that match as the point to that char
  *
  */
