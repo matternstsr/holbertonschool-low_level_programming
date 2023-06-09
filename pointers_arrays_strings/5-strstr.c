@@ -28,8 +28,8 @@ char *_strstr(char *haystack, char *needle)
 				g++;
 			}
 			else
-			g = 0;
-			j = 0;
+			(g = 0);
+			(j = 0);
 			break;
 								
 
