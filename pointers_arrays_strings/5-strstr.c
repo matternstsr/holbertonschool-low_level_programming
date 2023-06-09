@@ -20,11 +20,9 @@ char *_strstr(char *haystack, char *needle)
 		while (needle[j] != '\0')
 		{
 			if (haystack[i] == needle[j])
-			{
 				j++;
-				if (haystack[i] == '\0')
-					return (&haystack[g]);
-			}
+			if (haystack[i] == '\0')
+				return (&haystack[g]);
 			if (g == 0)
 				{
 					g++;
