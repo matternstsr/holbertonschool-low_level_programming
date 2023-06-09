@@ -23,10 +23,10 @@ char *_strstr(char *haystack, char *needle)
 			if (haystack[i] == needle[j])
 			{
 			j++;
-			g++;
 			}
+			(g = i)
 			else
-				return (&haystack[i] - g);
+				return (&haystack[g]);
 
 		}
 		i++;
