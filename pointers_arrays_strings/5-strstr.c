@@ -23,19 +23,19 @@ char *_strstr(char *haystack, char *needle)
 			if (haystack[i] == needle[j])
 			{
 				j++;
-				if (needle[j] == '\0')
-					return (&haystack[g]);
 				if (g == 0)
 				{
 					g = i;
 				}
+				if (needle[j] == '\0')
+					return (&haystack[g];
 			}
 			else
 			{
 				g = 0;
 				j = 0;
 				break;
-			}				
+			}			
 		}
 		i++;
 	}
