@@ -30,6 +30,8 @@ char *_strstr(char *haystack, char *needle)
 
 		}
 		i++;
+		(g = 0);
+		(j = 0);
 	}
 	return (NULL);
 }
