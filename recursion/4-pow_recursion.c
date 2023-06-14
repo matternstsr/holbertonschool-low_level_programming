@@ -3,9 +3,9 @@
 
 /**
  * _pow_recursion - 
- * @n: factoral result
- * @y: 
- * Return:
+ * @n: factoral result multiplied by y
+ * @y: multiplier
+ * Return: the value of the fact of x times y
  */
 
 
