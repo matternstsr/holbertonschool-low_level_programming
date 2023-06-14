@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_recursion - prints the diagnal sums of a 2d array
+ * puts_recursion - prints the diagnal sums of a 2d array
  * @s: print a string with putchar using recursion
  *
  * Return: void
