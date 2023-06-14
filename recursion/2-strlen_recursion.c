@@ -12,10 +12,15 @@ int _strlen_recursion(char *s)
 
 {
 	unsigned int x = 0;
-	x++;
+	
 	if (*s != '\0')
 	{	
-		_strlen_recursion(s + 1);	
+		x++;
+		goto doittoit	
+	}
+doittoit:
+	{
+		_strlen_recursion(s + 1);
 	}
 	return (x);
 }
