@@ -9,18 +9,10 @@
  */
 
 int _strlen_recursion(char *s)
-
 {
-	unsigned int x = 0;
-	
 	if (*s != '\0')
-	{	
-		x++;
-		goto doittoit;
-	}
-doittoit:
 	{
-		_strlen_recursion(s + 1);
+		(1 + _strlen_recursion(s + 1);
 	}
-	return (x);
+	return (0);
 }
