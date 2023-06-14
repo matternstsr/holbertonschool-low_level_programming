@@ -1,4 +1,6 @@
-int _putchar(char)
+#ifndef _FUNCTIONS_H
+#define _FUNCTIONS_H
+int _putchar(char);
 void print_alphabet_x10(void);
 int _islower(int);
 int _isalpha(int c);
@@ -76,14 +78,4 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-
-
-
-
-
-
-
-
-
-
-
+#endif
