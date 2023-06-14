@@ -11,13 +11,16 @@
 
 int _is_it_really(int n, int value)
 {
-	int is_it_really = value % value;
-
-	if (is_it_really > n)
-		return (-1);
-	if (is_it_really == n)
-		return (value);
-	return (_is_it_really(n, value + 1));
+	if (n < 2 || n % value == 0)
+	{
+		return (0);
+	}
+	else if (value > (n / 2))
+	{
+		return (1);
+	}
+	else
+		return (_is_it_really((value + 1), n));
 }
 
 
@@ -30,5 +33,13 @@ int _is_it_really(int n, int value)
 
 int is_prime_number(int n)
 {
-	return (_is_it_really(n, 1));
+	if (n == 1)
+	{
+		return (0);
+	}
+	if (n % 2 == 0)
+	{
+		return (0);
+	}
+	return (_is_it_really(n, 2));
 }
