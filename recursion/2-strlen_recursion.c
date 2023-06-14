@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void int _strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 
 {
 	unsigned int x = 0;
