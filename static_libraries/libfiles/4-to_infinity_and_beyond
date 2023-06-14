@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-#rando lopp never stop
-start=1
-until [ $start -le 0 ]
-do
-        echo "To infinity and beyond"
-         
-        ((start++))
-done

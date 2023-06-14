@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-#reading and cutting file paths
-while read -r USER
-do
-    echo "$USER" | cut -d":" -f1,3,6
-done < /etc/passwd

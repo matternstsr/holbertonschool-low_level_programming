@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-#until loop
-doituntil=1
-until [ $doituntil -gt 10 ]
-do
-    echo "Best School"
-    ((doituntil++))
-done

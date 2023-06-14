@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-#using command as varible (ls)
-
-directorylist=$(ls)
-for i in $directorylist
-do
-    echo "$i" | cut -d'-' -f 2
-done

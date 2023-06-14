@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-#cutting,reading, with IFS pwd file
-filepath="/etc/passwd"
-while IFS=: read -r stat1 stat2 stat3 stat4 stat5 stat6 stat7
-do
-    echo "The user $stat1 is part of the $stat4 gang, lives in $stat6 and rides $stat7. $stat3's place is protected by the passcode $stat2, more info about the user here: $stat5"
-done < $filepath
