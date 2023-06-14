@@ -16,7 +16,7 @@ int _strlen_recursion(char *s)
 	if (*s != '\0')
 	{	
 		x++;
-		goto doittoit	
+		goto doittoit;
 	}
 doittoit:
 	{
