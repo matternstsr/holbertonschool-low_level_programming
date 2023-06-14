@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#FizzBuzz multi 3&5
+
+fizzbuzz=1
+while [ $fizzbuzz -ne 101 ]
+do
+    if [ $((fizzbuzz % 15)) -eq 0 ]
+    then
+	echo "FizzBuzz"
+    elif [ $((fizzbuzz % 3)) -eq 0 ]
+    then
+	echo "Fizz"
+    elif [ $((fizzbuzz % 5)) -eq 0 ]
+    then
+        echo "Buzz"
+    else
+	echo $fizzbuzz
+    fi
+    ((fizzbuzz++))
+done

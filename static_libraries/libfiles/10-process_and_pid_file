@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# makes file /var/run/myscript.pid
+# prints infinity and beyond indefinitely
+# prints I hate the kill command if SIGTERM signal
+# print Y U no love me?! if SIGINT signal
+# Deletes /var/run/mycript.pid and kills SIGQUIT or SIGTERM signal
+
+echo $$ >> /var/run/myscript.pid
+
+trap "echo 'I hate the kill command'; rm -rf /var/run/myscript.pid; exit" SIGTERM
+trap "echo 'Y U no love me?!'" SIGINT
+trap "rm -rf /var/run/myscript.pid; exit" SIGQUIT
+
+while :; do echo 'To infinity and beyond'; sleep 2; done

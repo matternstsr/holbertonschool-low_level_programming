@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# writes "I am alive!" to a file indef.
+
+ALIVE=/tmp/my_process
+sudo touch $ALIVE
+
+while true; do
+    sudo bash -c "echo \"I am alive!\" >> $ALIVE"
+    sleep 2
+done

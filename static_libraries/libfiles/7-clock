@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#do nested clock
+currenthour=0
+currentminute=1
+while [ $currenthour -ne 13 ]
+do
+    echo "Hour: $currenthour"
+    ((currenthour++))
+    while [ "$currentminute" -ne 60 ]
+    do
+        echo "$currentminute"
+        ((currentminute++))
+    done
+    ((currentminute = 1))
+done
