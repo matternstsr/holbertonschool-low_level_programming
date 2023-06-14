@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * _puts_recursion - prints the diagnal sums of a 2d array
+ * _print_rev_recursion - prints the srint in reverse using recursion
  * @s: print a string with putchar using recursion
  *
  * Return: void
  */
 
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 
 {
 	if (*s == 0)
@@ -17,6 +17,6 @@ void _puts_recursion(char *s)
 		return;
 	}
 	_putchar(*s);
-	n--;
+	i--;
 	_puts_recursion(s - 1);
 }
