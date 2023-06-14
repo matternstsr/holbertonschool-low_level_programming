@@ -3,7 +3,7 @@
 
 /**
  * print_recursion - prints the diagnal sums of a 2d array
- * @s: print a string with putchar
+ * @s: print a string with putchar using recursion
  *
  * Return: void
  */
@@ -11,8 +11,11 @@
 void _puts_recursion(char *s)
 
 {
-	(s = 0);
-	while (s[i] != '\0')
-		i++;
-			_putchar(s)
+	if (*s == 0)
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
