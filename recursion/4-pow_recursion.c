@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _pow_recursion - 
+ * _pow_recursion - the value of the fact of x times y
  * @n: factoral result multiplied by y
  * @y: multiplier
  * Return: the value of the fact of x times y
