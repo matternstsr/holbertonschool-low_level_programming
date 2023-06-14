@@ -12,7 +12,7 @@
 int _sqareroute(int n, int value)
 {
 	int sqareroute = value * value;
-	
+
 	if (sqareroute > n)
 		return (-1);
 	if (sqareroute == n)
