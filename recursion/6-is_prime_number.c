@@ -30,5 +30,5 @@ int _is_it_really(int n, int value)
 
 int is_prime_number(int n)
 {
-	return (_is_it_really (n, 1));
+	return (_is_it_really(n, 1));
 }
