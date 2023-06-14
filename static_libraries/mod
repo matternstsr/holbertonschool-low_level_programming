@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod u+x *
+echo "you have made all files executable"
