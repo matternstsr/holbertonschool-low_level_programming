@@ -21,16 +21,15 @@ int main(int argc, char *argv[])
 	{
 		for (loopinc = 1; loopinc < argc; loopinc++)
 		{
-			stringinvector = argv[strleninc];
+			stringinvector = argv[loopinc];
 
 			for ( strleninc = 0;  strleninc< strlen(stringinvector); strleninc++)
 			{
-				if (stringinvector[strleninc] < 48 || stringinvector[loopinc] > 57)
+				if (stringinvector[strleninc] < 48 || stringinvector[stleninc] > 57)
 				{
 					printf("Error\n");
 					return ('1');
 				}
-				strleninc++;
 			}
 			sum += atoi(stringinvector);
 		}
