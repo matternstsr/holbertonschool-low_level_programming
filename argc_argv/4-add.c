@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 	int loopinc;
 	unsigned int strleninc, sum = 0;
-	char *stringinvenctor;
+	char *stringinvector;
 
 	if (argc > 1)
 	{
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 					printf("Error\n");
 					return ('1');
 				}
-				strleninc++
+				strleninc++;
 			}
 			sum += atoi(stringinvector);
 		}
