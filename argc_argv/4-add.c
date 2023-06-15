@@ -23,9 +23,9 @@ int main(int argc, char *argv[])
 		{
 			stringinvector = argv[loopinc];
 
-			for ( strleninc = 0;  strleninc< strlen(stringinvector); strleninc++)
+			for ( strleninc = 0;  strleninc < strlen(stringinvector); strleninc++)
 			{
-				if (stringinvector[strleninc] < 48 || stringinvector[stleninc] > 57)
+				if (stringinvector[strleninc] < 48 || stringinvector[strleninc] > 57)
 				{
 					printf("Error\n");
 					return ('1');
