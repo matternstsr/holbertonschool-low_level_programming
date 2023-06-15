@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	{
 		for (loopinc = 1; loopinc < argc; loopinc++)
 		{
-			stringinvector = argv[i];
+			stringinvector = argv[strleninc];
 
 			for ( strleninc = 0;  strleninc< strlen(stringinvector); strleninc++)
 			{
@@ -30,6 +30,7 @@ int main(int argc, char *argv[])
 					printf("Error\n");
 					return ('1');
 				}
+				strleninc++
 			}
 			sum += atoi(stringinvector);
 		}
