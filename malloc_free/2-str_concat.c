@@ -6,7 +6,6 @@
  * str_concat - Concatenates two strings.
  * @s1: initial string to be added to.
  * @s2: string to add to s1.
-
  * Return: if cant add then NULL. if not then point to strings together.
  */
 
