@@ -2,13 +2,10 @@
 #include <stdlib.h>
 
 /**
- *   create_array - Creates an array of chars and
- *                   initializes it with a specific char.
- *     @size: The size of the array to be initialized.
- *      @c: The specific char to intialize the array with.
- *
- *        Return: If 0 in size or fails then - NULL.
- *         Otherwise - a pointer to the array.
+ * create_array - Creates an array and puts a char in it.
+ * @size: size of the array.
+ * @c: Char that is for setting the array position
+ * Return: If 0 in size or fails then - NULL or pt to array if true.
  */
 char *create_array(unsigned int size, char c)
 {
@@ -16,17 +13,17 @@ char *create_array(unsigned int size, char c)
 	unsigned int posinarray;
 	
 	if (size == 0)
-	{	return (NULL);
+	{
+		return (NULL);
 	}
-	
 	myarray = malloc(sizeof(char) * size);
-	
 	if (myarray == NULL)
-	{	return (NULL);
+	{
+		return (NULL);
 	}
-	
 	for (posinarray = 0; posinarray < size; posinarray++)
-	{	myarray[posinarray] = c;
+	{
+		myarray[posinarray] = c;
 	}
 	return (myarray);
 }
