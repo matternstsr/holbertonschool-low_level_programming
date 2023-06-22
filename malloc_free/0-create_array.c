@@ -7,6 +7,7 @@
  * @c: Char that is for setting the array position
  * Return: If 0 in size or fails then - NULL or pt to array if true.
  */
+
 char *create_array(unsigned int size, char c)
 {
 	char *myarray;
