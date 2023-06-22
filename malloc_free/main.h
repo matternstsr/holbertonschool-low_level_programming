@@ -1,5 +1,6 @@
 #ifndef _FUNCTIONS_H
 #define _FUNCTIONS_H
+char *create_array(unsigned int size, char c);
 char *str_concat(char *s1, char *s2);
 int _putchar(char);
 void print_alphabet_x10(void);
