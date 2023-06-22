@@ -1,5 +1,7 @@
 #ifndef _FUNCTIONS_H
 #define _FUNCTIONS_H
+
+void *malloc_checked(unsigned int b);
 char *create_array(unsigned int size, char c);
 char *str_concat(char *s1, char *s2);
 int _putchar(char);
