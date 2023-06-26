@@ -19,7 +19,7 @@ int *array_range(int min, int max)
 	if ((min > max) || (arr == NULL))
 		return (NULL);
 
-	while (min < max)
+	while (min <= max)
 	{
 		arr[inc] = min;
 		inc++;
