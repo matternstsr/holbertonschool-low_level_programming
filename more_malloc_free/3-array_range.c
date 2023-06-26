@@ -13,10 +13,11 @@ int *array_range(int min, int max)
 {
 	int *arr, inc = 0;
 
+	arr = malloc((sizeof(int) * (max - min)) + sizeof(int));
+
 	if ((min > max) || (arr == NULL))
 		return (NULL);
 
-	arr = malloc((sizeof(int) * (max - min)) + sizeof(int));
 	while (min < max)
 	{
 		arr[inc] = min;
