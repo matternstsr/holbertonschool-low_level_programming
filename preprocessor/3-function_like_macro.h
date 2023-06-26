@@ -1,1 +1,1 @@
-#define ABS(x) ((unsigned)(x))
+#define ABS(x) ((x) < 0 ? -(x) : (x))
