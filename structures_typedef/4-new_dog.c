@@ -9,7 +9,7 @@ char *_strcpy(char *dest, char *src);
   * @age: age of the dog varible age
   * @owner: owner of the dog of the varible owner
   *
-  * Return: NULL if failes or 
+  * Return: NULL if failes or print dumb_mutt.
   */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -61,7 +61,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 int _strlen(char *s)
 {
 	int counter = 0;
-
+	
 	for (; *s != '\0'; s++)
 			counter++;
 	return (counter);
