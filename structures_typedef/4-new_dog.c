@@ -31,26 +31,26 @@ char *_strcpy(char *dest, char *src);
 		if (dumb_mutt == NULL)
 			return (NULL);
 
-		dumb_mutt -> name = malloc(sizeof(char) * stupid_name);
+		dumb_mutt->name = malloc(sizeof(char) * stupid_name);
 
-		if (dumb_mutt-> name == NULL)
+		if (dumb_mutt->name == NULL)
 		{
 			free(dumb_mutt);
 			return (NULL);
 		}
 
-		dumb_mutt-> owner = malloc(sizeof(char) * poor_owner);
+		dumb_mutt->owner = malloc(sizeof(char) * poor_owner);
 
-		if (dumb_mutt-> owner == NULL)
+		if (dumb_mutt->owner == NULL)
 		{
-			free(dumb_mutt-> name);
+			free(dumb_mutt->name);
 			free(dumb_mutt);
 			return (NULL);
 		}
 
-		dumb_mutt-> name = _strcpy(dumb_mutt-> name, name);
-		dumb_mutt-> owner = _strcpy(dumb_mutt-> owner, owner);
-		dumb_mutt-> age = age;
+		dumb_mutt->name = _strcpy(dumb_mutt->name, name);
+		dumb_mutt->owner = _strcpy(dumb_mutt->owner, owner);
+		dumb_mutt->age = age;
 	}
 
 	return (dumb_mutt);
