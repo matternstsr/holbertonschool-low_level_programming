@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include "dog.h"
+int _strlen(char *s);
+char *_strcpy(char *dest, char *src);
 
 /**
   * new_dog - function that creates a new dog.
@@ -11,12 +13,6 @@
   */
 
 dog_t *new_dog(char *name, float age, char *owner)
-
-
-int _strlen(char *s);
-char *_strcpy(char *dest, char *src);
-
-
 {
 	dog_t *dumb_mutt;
 	int stupid_name = 0;
