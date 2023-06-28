@@ -24,8 +24,8 @@ char *_strcpy(char *dest, char *src);
 
 	if (name != NULL && owner != NULL)
 	{
-		Stupid_name = _strlen(name) + 1;
-		poor_own_l = _strlen(owner) + 1;
+		stupid_name = _strlen(name) + 1;
+		poor_owner = _strlen(owner) + 1;
 		dumb_mutt = malloc(sizeof(dog_t));
 
 		if (dumb_mutt == NULL)
@@ -33,7 +33,7 @@ char *_strcpy(char *dest, char *src);
 
 		dumb_mutt -> name = malloc(sizeof(char) * stupid_name);
 
-		if (dump_mutt-> name == NULL)
+		if (dumb_mutt-> name == NULL)
 		{
 			free(dumb_mutt);
 			return (NULL);
