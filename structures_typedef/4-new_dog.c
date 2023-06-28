@@ -10,7 +10,7 @@
   * Return: NULL if failes or 
   */
 
-dog_t *new_dog(char *name, float age, char *owner)
+dog_t *dumb_mutt(char *name, float age, char *owner)
 
 
 int _strlen(char *s);
