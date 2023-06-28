@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
-  * dumb_mutt - function that creates a new dog.
+  * new_dog - function that creates a new dog.
   * @name: name of the dog varible name
   * @age: age of the dog varible age
   * @owner: owner of the dog of the varible owner
@@ -28,7 +28,7 @@ char *_strcpy(char *dest, char *src);
 		poor_owner = _strlen(owner) + 1;
 		new_dog = malloc(sizeof(dog_t));
 
-		if (dumb_mutt == NULL)
+		if (new_dog == NULL)
 			return (NULL);
 
 		new_dog->name = malloc(sizeof(char) * stupid_name);
