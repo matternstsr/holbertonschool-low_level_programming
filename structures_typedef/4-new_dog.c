@@ -61,9 +61,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 int _strlen(char *s)
 {
 	int counter = 0;
-	
+
 	for (; *s != '\0'; s++)
-			counter++;
+		counter++;
 	return (counter);
 }
 
