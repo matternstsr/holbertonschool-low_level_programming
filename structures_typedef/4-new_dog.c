@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
-  * new_dog - function that creates a new dog.
+  * dumb_mutt - function that creates a new dog.
   * @name: name of the dog varible name
   * @age: age of the dog varible age
   * @owner: owner of the dog of the varible owner
