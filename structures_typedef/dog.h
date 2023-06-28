@@ -1,5 +1,10 @@
-#ifndef _FUNCTIONS_H
-#define _FUNCTIONS_H
-#define struct dog
+#ifndef DOG_H
+#define DOG_H
 
-#endif
+struct dog 
+{
+    char *name;
+    float age;
+    char *owner;
+}
+#endif 
