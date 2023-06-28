@@ -3,6 +3,9 @@
 
 /**
  * struct dog - New type dog
+ * @name - New name of dog
+ * @age - New age of dog
+ * @owner - New owner of dog
  */
 
 struct dog
