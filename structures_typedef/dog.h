@@ -6,6 +6,7 @@
  * @name: New name of dog
  * @age: New age of dog
  * @owner: New owner of dog
+ * @dog_t: New type of name for dog.
  */
 
 struct dog
@@ -13,6 +14,7 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
+	char *dog_t;
 };
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
