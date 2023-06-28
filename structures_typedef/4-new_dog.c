@@ -18,7 +18,7 @@ char *_strcpy(char *dest, char *src);
 
 
 {
-	dog_t *new_dog;
+	dog_t *dumb_mutt;
 	int stupid_name = 0;
 	int poor_owner = 0;
 
@@ -26,34 +26,34 @@ char *_strcpy(char *dest, char *src);
 	{
 		stupid_name = _strlen(name) + 1;
 		poor_owner = _strlen(owner) + 1;
-		new_dog = malloc(sizeof(dog_t));
+		dumb_mutt = malloc(sizeof(dog_t));
 
-		if (new_dog == NULL)
+		if (dumb_mutt == NULL)
 			return (NULL);
 
-		new_dog->name = malloc(sizeof(char) * stupid_name);
+		dumb_mutt->name = malloc(sizeof(char) * stupid_name);
 
-		if (new_dog->name == NULL)
+		if (dumb_mutt->name == NULL)
 		{
-			free(new_dog);
+			free(dumb_mutt);
 			return (NULL);
 		}
 
-		new_dog->owner = malloc(sizeof(char) * poor_owner);
+		dumb_mutt->owner = malloc(sizeof(char) * poor_owner);
 
-		if (new_dog->owner == NULL)
+		if (dumb_mutt->owner == NULL)
 		{
-			free(new_dog->name);
-			free(new_dog);
+			free(dumb_mutt->name);
+			free(dumb_mutt);
 			return (NULL);
 		}
 
-		new_dog->name = _strcpy(new_dog->name, name);
-		new_dog->owner = _strcpy(new_dog->owner, owner);
-		new_dog->age = age;
+		dumb_mutt->name = _strcpy(dumb_mutt->name, name);
+		dumb_mutt->owner = _strcpy(dumb_mutt->owner, owner);
+		dumb_mutt->age = age;
 	}
 
-	return (new_dog);
+	return (dumb_mutt);
 }
 
 /**
