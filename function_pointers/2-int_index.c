@@ -3,7 +3,7 @@
 #include "function_pointers.h"
 
 /**
-  * int_index - indexx with in the array 
+  * int_index - indexx with in the array
   * @array: array that is storing the values
   * @size: size of the array that is passed
   * @cmp: function that is passed that provides the value of comparision.
