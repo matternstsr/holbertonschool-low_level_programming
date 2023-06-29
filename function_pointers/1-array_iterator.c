@@ -8,7 +8,6 @@
   * @size: size of the array that we are itterating
   * @action: what we are doing to the array as we itterate
   *
-  * Return: 
   */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
