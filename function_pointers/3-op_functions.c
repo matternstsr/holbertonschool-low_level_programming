@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-  * op_add - function that returns the sum of a and b 
+  * op_add - function that returns the sum of a and b
   * @a: varible for value a
   * @b: varible for value b
   *
