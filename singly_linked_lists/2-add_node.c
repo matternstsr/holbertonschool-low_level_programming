@@ -20,11 +20,11 @@ list_t *add_node(list_t **head, const char *str)
 
 		storeit->str = strdup(str);
 		storeit->len = _strlen(str);
-		stroeit->next = *head;
+		storeit->next = *head;
 
 		*head = storeit;
 
-		return (storit);
+		return (storeit);
 	}
 
 	return (0);
