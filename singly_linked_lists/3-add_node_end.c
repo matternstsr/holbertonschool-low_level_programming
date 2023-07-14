@@ -33,7 +33,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		{
 			storevalue = *head;
 
-			while (->next)
+			while (storevalue->next)
 				storevalue = storevalue->next;
 
 			storevalue->next = new_list;
@@ -60,5 +60,5 @@ int _strlen(const char *s)
 		len++;
 	}
 
-	return (len;
+	return (len)
 }
