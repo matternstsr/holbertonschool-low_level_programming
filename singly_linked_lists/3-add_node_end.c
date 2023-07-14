@@ -60,5 +60,5 @@ int _strlen(const char *s)
 		len++;
 	}
 
-	return (len)
+	return (len);
 }
