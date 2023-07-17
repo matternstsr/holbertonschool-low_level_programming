@@ -42,7 +42,7 @@ void copy_file(const char *src, const char *dest)
 	trunkfd = open(dest, O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	while ((numread = read(origfd, buff, 1024)) > 0)
 	{
-		if (write(trunkfd, buff, numread) != numread || tfd == -1)
+		if (write(trunkfd, buff, numread) != numread || trunkfd == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", dest);
 			exit(99);
