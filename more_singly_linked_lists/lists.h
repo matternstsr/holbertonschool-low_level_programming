@@ -41,15 +41,18 @@ size_t list_len(const list_t *h);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
-size_t print_dlistint(const dlistint_t *h);
-size_t dlistint_len(const dlistint_t *h);
-dlistint_t *add_dnodeint(dlistint_t **head, const int n);
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
+
+
+
+size_t print_listint(const listint_t *h);
+size_t listint_len(const dlistint_t *h);
+listint_t *add_dnodeint(dlistint_t **head, const int n);
+listint_t *add_dnodeint_end(dlistint_t **head, const int n);
 void free_dlistint(dlistint_t *head);
-dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
+listint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 int sum_dlistint(dlistint_t *head);
-dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
-dlistint_t *create_node(unsigned int n, void *next, void *prev);
+listint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
+listint_t *create_node(unsigned int n, void *next, void *prev);
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 int delete_first_dnode(dlistint_t **head);
 
