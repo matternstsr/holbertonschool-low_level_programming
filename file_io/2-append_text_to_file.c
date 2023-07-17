@@ -1,27 +1,31 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-  * create_file - ...
+  * append_text_to_file - ...
   * @filename: ...
   * @text_content: ...
   *
   * Return: ...
   */
-int create_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
-	int file_description;
+	int file_discription;
 
 	if (!filename)
 		return (-1);
 
-	file_description = open(filename, O_RDWR | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
-	if (file_description == -1)
+	file_discription = open(filename, O_WRONLY | O_APPEND);
+	if (file_discription == -1)
 		return (-1);
 
 	if (text_content)
-		write(file_description, text_content, _strlen(text_content));
+	{
+		if (write(file_discription, text_content, _strlen(text_content)) == -1)
+			return (-1);
+	}
 
-	close(file_description);
+	close(file_discription);
 	return (1);
 }
 
