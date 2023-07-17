@@ -45,16 +45,16 @@ void free_list(list_t *head);
 
 
 size_t print_listint(const listint_t *h);
-size_t listint_len(const dlistint_t *h);
-listint_t *add_dnodeint(dlistint_t **head, const int n);
-listint_t *add_dnodeint_end(dlistint_t **head, const int n);
-void free_dlistint(dlistint_t *head);
-listint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
-int sum_dlistint(dlistint_t *head);
-listint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
+size_t listint_len(const listint_t *h);
+listint_t *add_dnodeint(listint_t **head, const int n);
+listint_t *add_dnodeint_end(listint_t **head, const int n);
+void free_listint(listint_t *head);
+listint_t *get_dnodeint_at_index(listint_t *head, unsigned int index);
+int sum_listint(listint_t *head);
+listint_t *insert_dnodeint_at_index(listint_t **h, unsigned int idx, int n);
 listint_t *create_node(unsigned int n, void *next, void *prev);
-int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
-int delete_first_dnode(dlistint_t **head);
+int delete_dnodeint_at_index(listint_t **head, unsigned int index);
+int delete_first_dnode(listint_t **head);
 
 
 
