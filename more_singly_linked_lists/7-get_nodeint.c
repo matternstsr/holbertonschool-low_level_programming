@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
-  * get_nodeint_at_index - function that returns the nth node of a listint_t linked list.
+  * get_nodeint_at_index - function that returns the
+  * length node of a listint_t linked list.
   * @head: the end of the list
   * @index: spec spot in the list
   *
