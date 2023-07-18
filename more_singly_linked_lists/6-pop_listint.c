@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
-  * pop_listint - func del the head node of a link list, 
+  * pop_listint - func del the head node of a link list,
   * returns the head data (n).
   * @head: end of the list
   *
