@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
-  * pop_listint - func del the head node of a listint_t link list, returns the head node’s data (n).
+  * pop_listint - func del the head node of a link list, returns the head data (n).
   * @head: end of the list
   *
   * Return: returns n - if the linked list is empty return 0
