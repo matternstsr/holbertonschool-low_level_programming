@@ -3,9 +3,11 @@
 #include "lists.h"
 
 /**
-  * delete_nodeint_at_index - function that deletes the node at index index of a listint_t linked list.
+  * delete_nodeint_at_index - function that deletes the node
+  * at index index of a listint_t linked list.
   * @head: points to the head of the list (end)
-  * @index: index is the index of the node that should be deleted. Index starts at 0
+  * @index: index is the index of the node that should be deleted.
+  * Index starts at 0
   *
   * Return: 1 if it succeeded, -1 if it failed
   */
