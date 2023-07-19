@@ -19,7 +19,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 			if (stored == NULL)
 				return (NULL);
 			stored = stored->next;
-			count++
+			count++;
 		}
 		return (stored);
 }
