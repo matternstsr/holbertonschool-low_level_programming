@@ -15,7 +15,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	dlistint_t *made_node, *notend = *h, *tmpnode1 = *h, *tmpnode2;
 	unsigned int count = 0;
 
-	if (!h) || (idx > count) || (!made_node)
+	if (!h)
 		return (NULL);
 	while (notend)
 		notend = notend->next, count++;
