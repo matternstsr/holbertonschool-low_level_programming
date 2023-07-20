@@ -3,7 +3,9 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - inserts a new node at a the position that is chosen
+ * insert_dnodeint_at_index - inserts a new node 
+ * at a the position that is chosen
+ *
  * @h: pointer to head of DLL
  * @idx: index to look for with in the DLL
  * @n: number value placed in to the node that we are adding
@@ -20,10 +22,10 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	while (notend)
 		notend = notend->next, count++;
 	if (idx > count)
-                return (NULL);
+		return (NULL);
 	made_node = malloc(sizeof(dlistint_t));
 	if (!made_node)
-                return (NULL);
+		return (NULL);
 	made_node->n = n;
 	if (idx == 0)
 	{
