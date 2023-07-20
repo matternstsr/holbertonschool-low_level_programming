@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - inserts a new node 
+ * insert_dnodeint_at_index - inserts a new node
  * at a the position that is chosen
  *
  * @h: pointer to head of DLL
