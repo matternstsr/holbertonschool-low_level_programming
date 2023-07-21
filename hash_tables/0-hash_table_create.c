@@ -21,10 +21,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 		return (NULL);
 
 	for (count = 0; count < size; count++)
-		arrayofnodes[cunt] = NULL;
+		arrayofnodes[count] = NULL;
 
 	hashtable->arrayofnodes = arrayofnodes;
-	hsahtable->size = size;
+	hashtable->size = size;
 
 	return (hashtable);
 }
