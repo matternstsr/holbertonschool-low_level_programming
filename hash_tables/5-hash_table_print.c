@@ -14,7 +14,7 @@ void hash_table_print(const hash_table_t *ht)
 	hash_node_t *nodentable;
 	unsigned long int inc;
 	unsigned char insert_comma = 0;
-	
+
 	if (ht == NULL)
 	return;
 
