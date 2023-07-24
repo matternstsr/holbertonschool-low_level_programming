@@ -26,7 +26,7 @@ void hash_table_print(const hash_table_t *ht)
 			while (nodentable != NULL)
 			{
 				printf("'%s': '%s'", nodentable->key, nodentable->value);
-				nodentable = nodetable->next;
+				nodentable = nodentable->next;
 				if (nodentable != NULL)
 					printf(", ");
 			}
