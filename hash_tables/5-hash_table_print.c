@@ -14,7 +14,11 @@ void hash_table_print(const hash_table_t *ht)
 	hash_node_t *nodentable;
 	unsigned long int inc;
 	unsigned char insert_comma = 0;
+	
+	if (ht == NULL)
+	return;
 
+	printf("}\n");
 	for (inc = 0; inc < ht->size; inc++)
 	{
 		if (ht->array[inc] != NULL)
@@ -33,4 +37,5 @@ void hash_table_print(const hash_table_t *ht)
 			insert_comma = 1;
 		}
 	}
+	printf("}\n");
 }
