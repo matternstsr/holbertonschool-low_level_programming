@@ -3,10 +3,6 @@
 /**
  * hash_table_print - Prints the selected hash table.
  * @ht: print directed by the pointer
- * @key: The key
- *
- * Return: The value connected to the key
- * or NULL if key couldn't be found
  */
 
 void hash_table_print(const hash_table_t *ht)
