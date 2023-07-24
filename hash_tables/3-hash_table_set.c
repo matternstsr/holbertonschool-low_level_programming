@@ -39,7 +39,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 
 	new_table->value = strdup(value);
-	if (newt_able->value == NULL)
+	if (new_table->value == NULL)
 		return (0);
 
 	new_table->next = ht->array[index];
