@@ -1,32 +1,21 @@
 #include "hash_tables.h"
 
 /**
- * _strncat - adds n number of to the end array of src into dest.
- * @dest: Dest
- * @src: Source string
- * @n: The number places of the array
+ * hash_djb2 - using djb2
+ * @str: string used to make hash value
  *
- * Return: dest
+ * Return: hash value
  */
-char *_strncat(char *dest, char *src, int n)
+
+unsigned long int hash_djb2(const unsigned char *str)
 {
-	int source_index = 0;
-	int source_index2 = 0;
+	unsigned long int hash_value;
+	int count;
 
-	/* got to the end of the string src*/
-	while (dest[source_index] != '\0')
+	hash_value = 5381;
+	while ((count = *str++))
 	{
-		source_index++;
+		hash_value = ((hash_value << 5) + hash_value) + count;
 	}
-
-	/* adding how ever many n is to the end. */
-	while (src[source_index2] != src[n])
-	{
-		dest[source_index] = src[source_index2];
-		source_index++;
-		source_index2++;
-	}
-	dest[source_index] = '\0';
-
-	return (dest);
+	return (hash_value);
 }
