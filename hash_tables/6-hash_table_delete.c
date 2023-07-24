@@ -22,7 +22,7 @@ void hash_table_delete(hash_table_t *ht)
 				free(nodetodel->key);
 				free(nodetodel->value);
 				free(nodetodel);
-				nodetdel = travistmp;
+				nodetodel = travistmp;
 			}
 		}
 	}
