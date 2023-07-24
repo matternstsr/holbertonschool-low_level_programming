@@ -20,9 +20,9 @@ void hash_table_delete(hash_table_t *ht)
 			{
 				travistmp = nodetodel->next;
 				free(nodetodel->key);
-				free(nodetdel->value);
+				free(nodetodel->value);
 				free(nodetodel);
-				nodetdel = tmp;
+				nodetdel = travistmp;
 			}
 		}
 	}
