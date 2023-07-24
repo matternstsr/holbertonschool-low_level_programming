@@ -20,7 +20,7 @@ void hash_table_print(const hash_table_t *ht)
 
 	printf("{");
 	for (inc = 0; inc < ht->size; inc++)
-	i{
+	{
 		if (ht->array[inc] != NULL)
 		{
 			if (insert_comma == 1)
