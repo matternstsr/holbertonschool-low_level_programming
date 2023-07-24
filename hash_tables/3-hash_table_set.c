@@ -35,11 +35,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 
 	new_table->key = strdup(key);
-	if (newtable->key == NULL)
+	if (new_table->key == NULL)
 		return (0);
 
 	new_table->value = strdup(value);
-	if (newtable->value == NULL)
+	if (newt_able->value == NULL)
 		return (0);
 
 	new_table->next = ht->array[index];
