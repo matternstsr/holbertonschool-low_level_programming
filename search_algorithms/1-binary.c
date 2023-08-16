@@ -24,7 +24,6 @@ int binary_search(int *array, size_t size, int value)
 		return (middle);
 	else if (array[middle] < value)
 		min = middle + 1;
-	print_array(array, min, max);
 	else
 		max = middle - 1;
 	print_array(array, min, max);
