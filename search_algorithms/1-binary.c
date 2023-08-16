@@ -19,7 +19,7 @@ int binary_search(int *array, size_t size, int value)
 	print_array(array, min, max);
 	while (min <= max)
 	{
-		middle = min + max / 2;
+		middle = (min + max) / 2;
 	if (array[middle] == value)
 		return (middle);
 	else if (array[middle] < value)
