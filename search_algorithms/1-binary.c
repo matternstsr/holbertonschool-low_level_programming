@@ -27,3 +27,21 @@ int binary_search(int *array, size_t size, int value)
 	}
 	return (-1);
 }
+
+/**
+ * print_array - Prints an array of integers.
+ * @array: The array to be printed.
+ * @min: The left index of the array.
+ * @max: The right index of the array.
+ */
+void print_array(int *array, size_t min, size_t max)
+{
+	size_t idx;
+
+	if (array)
+	{
+		printf("Searching in array: ");
+		for (idx = min; idx < min + (max - min + 1); idx++)
+			printf("%d%s", *(array + idx), idx < min + (max - min) ? ", " : "\n");
+	}
+}
