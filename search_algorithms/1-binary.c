@@ -13,8 +13,10 @@ int binary_search(int *array, size_t size, int value)
 	size_t min = 0;
 	size_t max = size - 1;
 	size_t middle;
+
 	if (!array || size == 0)
-		return -1;
+		return (-1);
+	print_array(array, min, max);
 	while (min <= max)
 	{
 		middle = min + max / 2;
@@ -22,8 +24,10 @@ int binary_search(int *array, size_t size, int value)
 		return (middle);
 	else if (array[middle] < value)
 		min = middle + 1;
+	return (binary_search(array, l, mid - 1, value));
 	else
 		max = middle - 1;
+	return (binary_search(array, mid + 1, r, value));
 	}
 	return (-1);
 }
