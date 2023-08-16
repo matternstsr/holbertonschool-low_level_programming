@@ -41,16 +41,16 @@ void print_array(int *array, size_t min, size_t max)
 {
 	size_t idx;
 
-        idx = min;
-        if (idx > max)
-                return;
-        printf("Searching in array: ");
-        while (array && idx <= max)
-        {
-                if (idx > min)
-                        printf(", ");
-                printf("%d", array[idx]);
-                idx++;
-        }
-        printf("\n");
+		idx = min;
+		if (idx > max)
+				return;
+		printf("Searching in array: ");
+		while (array && idx <= max)
+		{
+				if (idx > min)
+						printf(", ");
+				printf("%d", array[idx]);
+				idx++;
+		}
+		printf("\n");
 }
