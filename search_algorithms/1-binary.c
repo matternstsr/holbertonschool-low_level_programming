@@ -24,10 +24,10 @@ int binary_search(int *array, size_t size, int value)
 		return (middle);
 	else if (array[middle] < value)
 		min = middle + 1;
-	return (binary_search(array, l, mid - 1, value));
+	return (binary_search(array, min, mid - 1, value));
 	else
 		max = middle - 1;
-	return (binary_search(array, mid + 1, r, value));
+	return (binary_search(array, mid + 1, max, value));
 	}
 	return (-1);
 }
